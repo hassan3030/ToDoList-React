@@ -21,6 +21,13 @@
     list-style-type: " 👉 ";
     cursor: pointer;
   }
+  .to-do-container {
+   max-height: 200px;
+    overflow-y: auto;
+  }
+  .done-task{
+   text-decoration: line-through;
+  }
   .alert{
     text-align: center;
   }
@@ -44,5 +51,8 @@
   .main-task .btn-task .btn{
     margin-bottom: 10px;
   }
-
-  
+  .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
