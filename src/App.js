@@ -20,9 +20,9 @@ import Footer from './components/Footer'
 function App() { 
   return (
     <div>
-       {/* <NotFound /> */}
+      
        <Task />
-       <Footer/>
+       {/* <Footer/> */}
     </div>
   );
 }
